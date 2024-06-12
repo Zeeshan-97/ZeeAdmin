@@ -1,0 +1,58 @@
+.topbox {
+  .chat-main {
+    padding: 10px;
+    position: relative;
+    // background-color: #fff;
+    border-top: 1px solid #70707029;
+    /* border-right: 1px solid #70707029; */
+    .for-side {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .img-friend {
+        img{
+
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+      .message-sender {
+        flex-grow: 1;
+        .sended-on {
+          /* position: absolute; */
+          right: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .name-of-sender {
+            font-size: 12px;
+            font-family: "Poppins";
+            color: #fff;
+            width: 120px;
+            min-width: 120px;
+            .latest-message {
+                font-size: 10px;
+                font-family: "gtw";
+                color: #fff;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: block;
+                // width: 150px;
+                font-family: "Poppins";
+              }
+          }
+          .amount {
+            color: #fff;
+            font-size: 12px;
+            font-family: "Poppins";
+            font-weight: bold;
+          }
+        }
+      }
+      
+    }
+  }
+}
